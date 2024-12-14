@@ -2,7 +2,7 @@
 // Connection to MySQL database
 $servername = "localhost";
 $username = "root";
-$password = "jeuznalogoc";
+$password = ""; // Change this if necessary
 $dbname = "attendancedb"; // Change the database name if necessary
 
 $conn = new mysqli($servername, $username, $password, $dbname);
